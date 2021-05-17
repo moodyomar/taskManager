@@ -22,7 +22,7 @@ h6 {
      font-family: 'Roboto', sans-serif;
 }
 
-label{
+label {
      color: #fff;
 }
 
@@ -40,18 +40,18 @@ form {
      height: 5vmin !important;
 }
 
-.btn{
+.btn {
      margin-bottom: 5px !important;
 }
 
-.tsk:hover{
+.tsk:hover {
      background-color: rgba(255, 255, 255, 0.3);
      transition: .3s all ease-in;
 }
 
 .fall {
      transform: translateY(8rem) rotateZ(20deg);
-     opacity: 0.3;
+     opacity: 0;
      transition: .3s all ease-out;
 }
 
