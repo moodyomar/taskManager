@@ -52,16 +52,16 @@ const checkValidation = (task, time, tasksList) => {
 const addTask = (task, time, tasksList) => {
      let tpp = 'this.parentNode.parentNode'
      let taskNtime = `
-     <div class="row row-cols-3">
-     <div class="col-sm-7">
+     <div class="row row-cols-3 tsk">
+     <div class="col-md-6">
           <h2>${task.value}</h2>
           </div>
-          <div class="col-sm">
+          <div class="col-md-3">
           <h2>${time.value}</h2>
           </div>
-          <div class="col-sm">
-          <button class="btnX btn btn-danger tsk" onclick="deleteSelectedTask(${tpp})"><i class="fas fa-trash"></i></button>
-          <button class="btnV btn btn-success tsk" onclick="markDoneSelectedTask(${tpp})"><i class="fas fa-check"></i></button>
+          <div class="col-md-3">
+          <button class="btnX btn btn-danger " onclick="deleteSelectedTask(${tpp})"><i class="fas fa-trash"></i></button>
+          <button class="btnV btn btn-success " onclick="markDoneSelectedTask(${tpp})"><i class="fas fa-check"></i></button>
           </div>
      </div>
      </div>

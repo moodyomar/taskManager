@@ -21,10 +21,10 @@
           <form action="" class="mx-auto mt-5">
                <h1 class="text-center text-white display-3 mb-5">Task Manager</h1>
                <label>Task Name: </label>
-               <input  type="text" placeholder="Pick up Moody from the Airport" id="taskNameInput"
+               <input  type="text" placeholder="Take Moody to the airport" id="taskNameInput"
                     class="form-control mb-3">
                <label for="">Task Time: </label>
-               <input type="" id="taskTimeInput" class="form-control mb-3">
+               <input type="time" id="taskTimeInput" class="form-control mb-3">
                <button id="addTaskBtn" class="btn btn-success">Add Task</button>
                <button id="clearBtn" class="btn btn-primary">Clear</button>
                <button id="deleteTasksBtn" class="btn btn-danger mb-3">Delete All</button>
@@ -33,7 +33,7 @@
 
           <div class="row justify-content-center">
                <div class="col-lg-6 border p-2">
-                    <div id="tasksList">
+                    <div id="tasksList" class="container">
 
                     </div>
                </div>
